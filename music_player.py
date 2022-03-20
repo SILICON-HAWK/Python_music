@@ -8,8 +8,7 @@ root=tk.Tk()
 root.withdraw()
 
 dirname = os.path.dirname(__file__)
-chika=os.path.join(dirname , "songs\chika.mp3")
-jojo=os.path.join(dirname , "songs\jojo.mp3")
+ammumu=os.path.join(dirname , "songs\\ammumu.mp3")
 class Stack:
     def __init__(self):
         self.list=[]
@@ -30,8 +29,7 @@ class Stack:
             self.list.pop()
 
 Playlist=Stack()
-Playlist.Add_Song(chika)
-Playlist.Add_Song(jojo)
+Playlist.Add_Song(ammumu))
 def play_Song(ll):
     while True:
         print(f"Press 1 to play First Song\n Press 2 to Play Next Song.\n Press 3 to Add Song.\n Press 4 to Delete Current Song. \n Press 5 to Show Playlist \n Press 0 to Exit Music Player")
